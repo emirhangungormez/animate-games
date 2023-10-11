@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>dino16_09_3</title>
+<!-- write your code here -->
+<style>
+  #animation_container {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="dino16_09_3.js?1663696002064"></script>
+<script>
+// Global Scripts
+	var music = new Audio("sounds/music.mp3");
+var ses1 = new Audio("sounds/ses1.mp3");
+var ses2 = new Audio("sounds/ses2.mp3");
+var ses3 = new Audio("sounds/ses3.mp3");
+var ses4 = new Audio("sounds/ses4.mp3");
+var ses5 = new Audio("sounds/ses5.mp3");
+var ses6 = new Audio("sounds/ses6.mp3");
+var ses7 = new Audio("sounds/ses7.mp3");
+var ses8 = new Audio("sounds/ses8.mp3");
+var ses9 = new Audio("sounds/ses9.mp3");
+var ses10 = new Audio("sounds/ses10.mp3");
+var ses11 = new Audio("sounds/ses11.mp3");
+var ses12 = new Audio("sounds/ses12.mp3");
+var ses13 = new Audio("sounds/ses13.mp3");
+var grs= new Audio("sounds/grs.mp3");
+var agac= new Audio("sounds/agac.mp3");
+var kakts= new Audio("sounds/kakts.mp3");
+var sru= new Audio("sounds/sru.mp3");
+var e1= new Audio("sounds/e1.mp3");
+var e2= new Audio("sounds/e2.mp3");
+var e3= new Audio("sounds/e2.mp3");
+var allAudio = [];
+allAudio.push(music, ses1, ses2, ses3, ses4, ses5, grs, agac, ses6, ses7, kakts, ses8, ses9, ses10, ses11, ses12, ses13, sru, e1, e2, e3 );
+music.preload = ses1.preload = "auto";
+music.playsinline = ses1.playsinline = "";
+music.preload = ses2.preload = "auto";
+music.playsinline = ses2.playsinline = "";
+music.preload = ses3.preload = "auto";
+music.playsinline = ses3.playsinline = "";
+music.preload = ses4.preload = "auto";
+music.playsinline = ses4.playsinline = "";
+music.preload = ses5.preload = "auto";
+music.playsinline = ses5.playsinline = "";
+music.preload = grs.preload = "auto";
+music.playsinline = grs.playsinline = "";
+music.preload = agac.preload = "auto";
+music.playsinline = agac.playsinline = "";
+music.preload = ses6.preload = "auto";
+music.playsinline = ses6.playsinline = "";
+music.preload = ses7.preload = "auto";
+music.playsinline = ses7.playsinline = "";
+music.preload = kakt.preload = "auto";
+music.playsinline = kakt.playsinline = "";
+music.preload = ses8.preload = "auto";
+music.playsinline = ses8.playsinline = "";
+music.preload = ses9.preload = "auto";
+music.playsinline = ses9.playsinline = "";
+music.preload = ses10.preload = "auto";
+music.playsinline = ses10.playsinline = "";
+music.preload = ses11.preload = "auto";
+music.playsinline = ses11.playsinline = "";
+music.preload = ses12.preload = "auto";
+music.playsinline = ses12.playsinline = "";
+music.preload = ses13.preload = "auto";
+music.playsinline = ses13.playsinline = "";
+music.preload = sru.preload = "auto";
+music.playsinline = sru.playsinline = "";
+music.preload = e1.preload = "auto";
+music.playsinline = e1.playsinline = "";
+music.preload = e2.preload = "auto";
+music.playsinline = e2.playsinline = "";
+music.preload = e3.preload = "auto";
+music.playsinline = e3.playsinline = "";
+function m0s() {
+	if (allAudio) {
+		for (var audio of allAudio) {
+			audio.volume = 0;
+			audio.play();
+			audio.pause();
+			audio.currentTime = 0;
+		}
+	}
+	allAudio = null;
+	music.loop = true;
+	music.play();
+	console.log("çalıyor");
+	music.volume = 0.6;
+}
+function ses1s() {
+	ses1.volume = 1;
+	ses1.currentTime = 0
+	ses1.play();
+}
+function ses2s() {
+	ses2.volume = 1;
+	ses2.currentTime = 0
+	ses2.play();
+}
+function ses3s() {
+	ses3.volume = 1;
+	ses3.currentTime = 0
+	ses3.play();
+}
+function ses4s() {
+	ses4.volume = 1;
+	ses4.currentTime = 0
+	ses4.play();
+}
+function ses5s() {
+	ses5.volume = 1;
+	ses5.currentTime = 0
+	ses5.play();
+}
+function grss() {
+	grs.volume = 1;
+	grs.currentTime = 0
+	grs.play();
+}
+function agacs() {
+	agac.volume = 1;
+	agac.currentTime = 0
+	agac.play();
+}
+function ses6s() {
+	ses6.volume = 1;
+	ses6.currentTime = 0
+	ses6.play();
+}
+function ses7s() {
+	ses7.volume = 1;
+	ses7.currentTime = 0
+	ses7.play();
+}
+function kaktss() {
+	kakts.volume = 1;
+	kakts.currentTime = 0
+	kakts.play();
+}
+function ses8s() {
+	ses8.volume = 1;
+	ses8.currentTime = 0
+	ses8.play();
+}
+function ses9s() {
+	ses9.volume = 1;
+	ses9.currentTime = 0
+	ses9.play();
+}
+function ses10s() {
+	ses10.volume = 1;
+	ses10.currentTime = 0
+	ses10.play();
+}
+function ses11s() {
+	ses11.volume = 1;
+	ses11.currentTime = 0
+	ses11.play();
+}
+function ses12s() {
+	ses12.volume = 1;
+	ses12.currentTime = 0
+	ses12.play();
+}
+function ses13s() {
+	ses13.volume = 1;
+	ses13.currentTime = 0
+	ses13.play();
+}
+function srus() {
+	sru.volume = 1;
+	sru.currentTime = 0
+	sru.play();
+}
+function e1s() {
+	e1.volume = 1;
+	e1.currentTime = 0
+	e1.play();
+}
+function e2s() {
+	e2.volume = 1;
+	e2.currentTime = 0
+	e2.play();
+}
+function e3s() {
+	e3.volume = 1;
+	e3.currentTime = 0
+	e3.play();
+}</script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("EA1A79EC6745134BBD8BE71E581D9F91");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.installPlugin(createjs.Sound);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.dino16_09_2();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+function playSound(id, loop, offset) {
+	return createjs.Sound.play(id, {'interrupt':createjs.Sound.INTERRUPT_EARLY, 'loop': loop, 'offset': offset});}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:950px; height:480px">
+		<canvas id="canvas" width="950" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:950px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+</body>
+</html>
